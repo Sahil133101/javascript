@@ -41,7 +41,7 @@ let c= 2;
   
 
 //   logical operator
-//   operate on boolean
+//   operate on boolean 
 
   let x =5;
   let y=6;
