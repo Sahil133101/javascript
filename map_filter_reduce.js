@@ -33,3 +33,10 @@ let arr4=  arr3.filter((a)=>{
     return a<10
 })
 console.log(arr4)
+
+/* reduce method */
+let arr5 = [1,2,3,4,5,6,7] 
+let arr6 =arr5.reduce((s1,s2)=>{
+    return s1+s2
+})
+console.log(arr6)
