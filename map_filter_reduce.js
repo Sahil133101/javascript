@@ -4,7 +4,7 @@
 a.map(()=>{
     console.log(value)
 })
-console.log(a)*/
+console.log(a)
 
 
 let arr = [10,20,30]
@@ -13,8 +13,6 @@ let arr2 = arr.map((value, index, array)=>{
         return value*2;
 
 })
- 
-    
 
 console.log(arr2)
 
@@ -27,16 +25,26 @@ console.log(c)
 
 
 
-/* filter():- */
+filter():- 
 let  arr3 = [89,90,20,9,5,6,]
 let arr4=  arr3.filter((a)=>{
     return a<10
 })
 console.log(arr4)
 
-/* reduce method */
+ reduce method 
 let arr5 = [1,2,3,4,5,6,7] 
 let arr6 =arr5.reduce((s1,s2)=>{
     return s1+s2
 })
-console.log(arr6)
+console.log(arr6) */
+
+
+let number = [10,20,30,40]
+
+let newArr = number.map(myFunction)
+
+function myFunction(num) {
+  return num * 10;
+}
+console.log(newArr)
