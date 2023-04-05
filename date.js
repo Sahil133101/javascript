@@ -5,7 +5,7 @@
 // let date = new Date();
 // date.setDate(22);
 // date.setFullYear(2022);
-// console.log(date);
+//console.log(date);
 
 let date = new Date();
 console.log(date.toLocaleString());
