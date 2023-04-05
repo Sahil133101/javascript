@@ -1,0 +1,17 @@
+// console.log(Math.random());
+
+console.log(Math.floor(3.8));
+
+console.log(Math.ceil(3.2));
+
+console.log(Math.max(3,5,7,9));
+// Output: 9
+console.log(Math.min(3,5,7,9));
+// Output: 3
+
+console.log(Math.PI);
+// Output: 3.141592653589793
+console.log(Math.E);
+// Output: 2.718281828459045
+
+
